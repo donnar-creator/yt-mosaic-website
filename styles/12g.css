@@ -1,0 +1,43 @@
+.container{
+display:flex;
+font-family:Arial;
+flex-direction:row;
+}
+.profile-pic {
+width:80px;
+height:80px;
+border-radius:40px;
+object-fit:cover;
+margin: 20px;
+ }
+ .data {
+  width:300px;
+  height:120px;
+  }
+ .name {
+  font-size:26px;
+  font-weight:bold;
+  margin-top:12px;
+  margin-bottom:0;
+  }
+ .character {
+  font-size:28px;
+  color:grey;
+  margin-top:3px;
+  margin-bottom:0;
+  } 
+  .popular {
+    font-size:24px;
+    color: grey;
+    margin-top:5px;
+  }
+  button  {
+    width:115px;
+    height:55px;
+    border:none;
+    border-radius:8px;
+    background-color:rgb(0, 132, 255);
+    color:white;
+    font-size:26px;
+    margin-top:35px;
+  }

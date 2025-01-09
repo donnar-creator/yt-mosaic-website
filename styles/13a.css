@@ -1,0 +1,23 @@
+
+.container {
+  width:300px;
+  height:50px;
+  display:flex;
+  margin-top:50px;
+}
+.flexbox {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100px;
+  height:50px;
+  background-color:lightpink;
+}
+.element {
+  width:200px;
+  background-color:lightblue;
+}
+p  {
+  color: white;
+  background-color:black;
+}

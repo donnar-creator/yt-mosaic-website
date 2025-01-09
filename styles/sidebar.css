@@ -1,0 +1,104 @@
+.sidebar  {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 65px;
+  background-color: white;
+  width:72px;
+  z-index:200;
+  padding-top:5px;
+}
+ .sidebar-link  {
+  height:74px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  cursor:pointer;
+  white-space: nowrap;
+  }
+  .sidebar-link:hover  {
+    background-color: rgb(241, 241, 241);
+  }
+  .sidebar-link img  {
+    height:24px;
+    margin-bottom:6px;
+  }
+  .sidebar-link div  {
+     font-size: 10px;
+  }
+  @media  (min-width: 1000px) {
+    .sidebar-link div {
+      font-size:12px;
+    }
+   }
+   @media  (max-width: 1200px) {
+    .sidebar  {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      top: 65px;
+      background-color: white;
+      width:72px;
+      z-index:200;
+      padding-top:5px;
+    }
+     .sidebar-link  {
+      height:74px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-direction:column;
+      cursor:pointer;
+      white-space: nowrap;
+      }
+      .sidebar-link:hover  {
+        background-color: rgb(241, 241, 241);
+      }
+      .sidebar-link img  {
+        height:24px;
+        margin-bottom:6px;
+      }
+      .sidebar-link, div  {
+         font-size: 10px;
+      }
+      @media  (min-width: 1000px) {
+        .sidebar-link div {
+          font-size:12px;
+        }
+       }                  
+   }
+   @media (min-width:1200.1px)  {
+    .sidebar  {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      top: 65px;
+      background-color: white;
+      width:240px;
+      z-index:200;
+      padding-top:5px;
+    }
+    .sidebar-link  {
+      height:40px;
+      display:flex;
+      align-items:center;
+      justify-content: start;
+      flex-direction:row;
+      cursor:pointer;
+      white-space: nowrap;
+      padding-left:30px;
+      }
+      .sidebar-link:hover  {
+        background-color: rgb(241, 241, 241);
+      }
+      .sidebar-link img  {
+        height:24px;
+        margin-bottom:0;
+        margin-right:25px;
+        }
+      .sidebar-link, div  {
+        font-size: 12px;
+        }
+   }
+

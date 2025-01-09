@@ -1,0 +1,178 @@
+.tahoma {
+ font-family: Tahoma;
+ font-weight:bold;
+ font-size:25px;
+}
+.arial {
+  font-family:Arial;
+  font-weight:bold;
+  font-size:30px;
+  margin-bottom:0;
+}
+.arial-italic {
+  font-family: Arial;
+  font-size:25px;
+  font-style: italic;
+  color: red;
+  margin-top:8px;
+}
+.title{
+  font-family:Verdana;
+  font-weight:bold;
+  font-size:20px;
+  margin-bottom:0;
+}
+.level {
+  font-family:Verdana;
+  font-size:18px;
+  color:grey;
+  margin-top:5px;
+}
+.describe {
+  font-family:Verdana;
+  font-size:20px;
+  width:400px;
+}
+.start-button {
+  color:white;
+  background-color:green;
+  border-radius:8px;
+  font-size:18px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
+  border:none;
+  margin-top:5px;
+}
+.arial-b {
+  font-family:Arial;
+  font-size:25px;
+  font-weight:bold;
+  text-align:center;
+}
+.option {
+  font-family:Arial;
+  font-size:18px;
+  text-align:center;
+}
+.link {
+  font-family:Arial;
+  font-size:18px;
+  text-align:center;
+  margin-left:400px;
+  color:blue
+}
+.flash {
+  color:red;
+  font-family:Arial;
+  font-size:15px;
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:0;
+}
+.subject {
+  text-align:center;
+  font-family:Arial;
+  font-size:22px;
+  font-weight:bold;
+  margin-top:10px;
+  margin-bottom:0;
+}
+.hype {
+  text-align:center;
+  font-family:Arial;
+  font-weight:bold;
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:0;
+}
+.price {
+  text-align:center;
+  font-family:Arial;
+  font-size:18px;
+  color:grey;
+  margin-top:10px;
+}
+.buy-button {
+  background-color:blue;
+  color:white;
+  border:none;
+  border-radius:15px;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding-right:8px;
+  padding-left:8px;
+  padding-top:5px;
+  padding-bottom:5px;
+  text-decoration:none;
+  margin-left:435px;
+}
+.special {
+  font-family:Arial;
+  font-size:40px;
+  margin-bottom:0;
+}
+.currency {
+  font-family:Arial;
+  font-size:20px;
+  color:grey;
+}
+.add {
+  font-family:Arial;
+  font-size:20px;
+  color:darkgreen;
+  margin-top:5px;
+  margin-bottom:0;
+}
+.discount {
+  font-family:Arial;
+  font-size:20px;
+  margin-top:10px;
+}
+.less {
+  font-family:Arial;
+  font-size:20px;
+  color:red;
+  margin-left:5px;
+}
+.offer {
+  font-family:Arial;
+  font-size:20px;
+  margin-top:50px;
+  margin-bottom:10px;
+}
+.intro {
+  font-family:Arial;
+  font-weight:bold;
+  font-size:20px;
+  margin-top:50px;
+  margin-bottom:10px;
+}
+.address {
+  font-family:Arial;
+  font-weight:regular;
+  font-size:20px;
+  color:grey;
+  margin-left:5px;
+}
+.rational {
+  font-family:Arial;
+  font-size:20px;
+  font-weight:regular;
+  width:650px;
+  margin-top:0;
+}
+.solution {
+  font-family:Arial;
+  font-size:20px;
+  font-weight:regular;
+  margin-top:25px;
+}
+.hub {
+  font-family:Arial;
+  font-size:20px;
+  font-weight:regular;
+  color:blue;
+}

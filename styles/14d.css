@@ -1,0 +1,54 @@
+body  {
+  height:3000px;
+}
+.right-sidebar  {
+  background-color:green;
+  color:white;
+  position:fixed;
+  right:0;
+  bottom:0;
+  top:0;
+  width:100px;
+}
+.overlay  {
+  position:fixed;
+  right:0; 
+  left:0;
+  bottom:0;
+  top:0;
+ background-color: rgba(0, 0, 0, 0.8);
+ display:flex;
+ align-items:center;
+}
+ .modal  {
+  width: 350px;
+  height:130px;
+  border:none;
+  border-radius: 7px;
+  background-color:white;
+  color:black;
+  font-family: Arial;
+  position:fixed;
+  top:100px;
+  right:60px;
+  
+ }
+ .modal-title  {
+  font-size:25px;
+  font-weight:bold;
+  padding-left:18px;
+  padding-top:20px;
+ }
+ .statement  {
+  font-size:15px;
+  padding-left:18px;
+  padding-top:12px;
+ }
+ button  {
+  font-size:14px;
+  border-radius:3px;
+  border-style:solid;
+  border-width:1px;
+  margin-left: 18px;
+  margin-top: 15px;
+ }

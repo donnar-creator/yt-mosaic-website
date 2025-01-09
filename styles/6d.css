@@ -1,0 +1,18 @@
+.model {
+  font-family:Montserrat;
+  font-weight:bold;;
+  font-size:70px;
+  text-align:center;
+  margin-bottom:0;
+  }
+  .mode {
+    font-family:Montserrat;
+    font-weight:regular;
+    font-size:30px;
+    text-align:center;
+    margin-top:20px;
+  }
+  .shop-link {
+    cursor:pointer;
+    text-decoration:underline;
+  }

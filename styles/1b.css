@@ -1,0 +1,65 @@
+a:link {
+  font-size:20px;
+  color:rgb(0, 113, 133);
+}
+
+a:visited {
+  font-size:20px;
+  color:rgb(0, 113, 133);
+}
+
+a:hover {
+  color:rgb(133, 0, 0);
+}
+.nike
+{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.price{
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(0, 118, 0)
+}
+
+.free{
+  font-size: 20px;
+  color:rgb(0, 0, 0)
+}
+
+.add-button{
+  background-color:rgb(255, 216, 20);
+  color: black;
+  border:none;
+  height:36px;
+  width:140px;
+  border-radius:18px;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.add-button:hover{
+  background-color:rgb(248, 192, 9);
+}
+.add-button:active{
+  opacity:0.8;
+}
+
+.buy-button{
+  background-color:rgb(255, 164, 28);
+  color: black;
+  border:none;
+  height:36px;
+  width:140px;
+  border-radius:18px;
+  font-size:16px;
+  font-weight:bold;
+}
+  .buy-button:hover{
+  background-color:rgb(255, 142, 38);
+}
+
+.buy-button:active{
+  opacity:0.8;
+}

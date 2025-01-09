@@ -1,0 +1,59 @@
+.header  {
+    height:40px;
+    font-family:Arial;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      align-items:center;
+      
+  }
+  .left-section {
+  display:flex;
+  align-items:center;
+
+}
+.profile-pic  {
+  width:30px;
+  height:30px;
+  border-radius:15px;
+  margin-left:60px;
+}
+.name  {
+  padding-left:8px;
+  font-size:13px;
+  font-weight:bold;
+}
+.right-section {
+  display:flex;
+  align-items:center;
+}
+.add-button  {
+  background-color:rgb(0, 85, 255);
+  color:white;
+  border:none;
+  border-radius:4px;
+  font-size:10px;
+  font-weight:bold;
+  padding-top:6px;
+  padding-bottom:6px;
+  padding-left:9px;
+  padding-right:9px;
+}
+.message  {
+  background-color:rgb(234, 234, 234);
+  color:black;
+  border:none;
+  border-radius:4px;
+  font-size:10px;
+  font-weight:bold;
+  padding-top:6px;
+  padding-bottom:6px;
+  padding-left:9px;
+  padding-right:9px;
+  margin-right:50px;
+  margin-left:10px;
+}

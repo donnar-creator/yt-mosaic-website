@@ -1,0 +1,37 @@
+body  {
+  height:3000px;
+}
+.close-button  {
+  background-color:black;
+  color:white;
+  font-family:Arial;
+  font-size:25px;
+  height:60px;
+  width:60px;
+  border-radius:30px;
+  position:absolute;
+  left:-30px;
+  top:-25px;
+}
+.grey-box  {
+  width:320px;
+  height:180px;
+  border:none;
+  background-color: grey;
+  position:fixed;
+  bottom:2cqi;
+  right:20px;
+}
+.timestamp  {
+  background-color:black;
+  color:white;
+  position:absolute;
+  right:10px;
+  bottom:8px;
+  font-family:Arial;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:4px;
+  padding-bottom:4px;
+  font-size:20px;
+}
