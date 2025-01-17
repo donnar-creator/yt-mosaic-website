@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"href="styles/general.css">
+    <link rel="stylesheet"href="styles/header.css">
+    <link rel="stylesheet"href="styles/video.css">
+    <link rel="stylesheet"href="styles/sidebar.css">
+    <link rel="stylesheet"href="styles/test.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu"src="yt-icons/hamburger-menu.svg">
+        <img class="youtube-logo"src="yt-icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" 
+       placeholder="Search">
+       <button class="search-button">
+        <img class="search-icon"
+        src="yt-icons/search.svg">
+        <div class="tooltip">Search</div>
+       </button>
+       <button class="voice-search">
+        <!--Put position absolute inside position relative-->
+        <img class="voice-search-icon"
+        src="yt-icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+       </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="yt-icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+       <div class="youtube-apps-icon-container"> 
+        <img class="youtube-apps-icon" src="yt-icons/youtube-apps.svg">
+        <div class="tooltip">YouTube apps</div>
+      </div>
+       
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" 
+          src="yt-icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        
+        <img class="current-user-picture"src="channel-pics/my-channel.jpeg">
+      </div>
+      </header>
+
+     <nav class="sidebar">
+       <div class="sidebar-link">
+        <img src="yt-icons/home.svg">
+        <div>Home</div>
+       </div>
+       <div class="sidebar-link">
+        <img src="yt-icons/explore.svg">
+        <div>Explore</div>
+       </div>
+       <div class="sidebar-link">
+        <img src="yt-icons/subscriptions.svg">
+        <div>Subscriptions</div>
+       </div>
+       <div class="sidebar-link">
+        <img src="yt-icons/originals.svg">
+        <div>Originals</div>
+       </div>
+       <div class="sidebar-link">
+        <img src="yt-icons/youtube-music.svg">
+        <div>YouTube Music</div>
+       </div>
+       <div class="sidebar-link">
+        <img src="yt-icons/library.svg">
+        <div>Library</div>
+       </div>
+      </nav>
+
+      
+    <main> 
+      <section class="video-grid">
+      
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=i8G3InC9lEw&t=557s">
+              <img class="thumbnail"
+              src="thumbnails/thumbnail1.webp"></a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pic"> 
+              <a href="https://www.youtube.com/watch?v=i8G3InC9lEw&t=557s">
+              <img class="profile-pic"src="channel-pics/icon-2.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-2.jpg">
+                <div class="name">Die sekundäre Agitation</div>
+                <div class="subscribers">14.800 Abonnenten</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title" href="https://www.youtube.com/watch?v=i8G3InC9lEw&t=557s">
+                Leeres Geschwätz! Katja Wolf, Georg Maier 
+                  und Mario Voigt wollen uns für dumm verkaufen!</a> 
+              
+              <p class="video-author">
+                Die sekundäre Agitation
+              </p>
+              <p class="video-stats">
+                4048 Aufrufe &#183; vor 21 Stunden
+              </p>
+             </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=g-_H7MUp4YI">
+              <img class="thumbnail" 
+              src="thumbnails/thumbnail-2.webp"></a>
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid"> 
+            <div class="channel-pic">
+             <a href="https://www.youtube.com/watch?v=g-_H7MUp4YI">
+              <img class="profile-pic"src="channel-pics/icon-3.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-3.jpg">
+                <div class="name">The Duran</div>
+                <div class="subscribers">439.000 Abonnenten</div>
+              </div>
+            </div>
+           <div class="video-info">
+             <a class="video-title" href="https://www.youtube.com/watch?v=g-_H7MUp4YI">
+              EU Kingdom of the Blind, Orban can see</a>
+              <p class="video-author">
+                The Duran
+              </p>
+              <p class="video-stats">
+                21.983 Aufrufe &#183; vor 3 Stunden
+              </p>
+            </div>
+         </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=UoXhgJcSlj4&t=32s">
+              <img class="thumbnail"
+              src="thumbnails/thumbnail3.webp"></a>
+            <div class="video-time">3:18:21</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pic"> 
+            <a href="https://www.youtube.com/watch?v=UoXhgJcSlj4&t=32s">
+              <img class="profile-pic"src="channel-pics/icon-4.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-4.jpg">
+                <div class="name">Manova</div>
+                <div class="subscribers">59.500 Abonnenten</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title" href="https://www.youtube.com/watch?v=UoXhgJcSlj4&t=32s">
+                MANOVA The Great WeSet: „Die Blackrock-Bourgeoisie“ 
+                (Ulrich Gausmann, Horst Müller, Werner Rügemer)
+              </a>
+              <p class="video-author">
+                Manova
+              </p>
+              <p class="video-stats">
+                13.311 Aufrufe &#183; vor 10 Stunden
+              </p>
+             </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=cdL1qENSQmQ&t=16s"><img class="thumbnail" 
+              src="thumbnails/thumbnail4.webp"></a>
+            <div class="video-time">27:01</div>
+          </div>
+          <div class="video-info-grid"> 
+            <div class="channel-pic">
+             <a href="https://www.youtube.com/watch?v=cdL1qENSQmQ&t=16s">
+              <img class="profile-pic"src="channel-pics/icon-1.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-1.jpg">
+                <div class="name">Der ERCM Medizin Podcast Clips</div>
+                <div class="subscribers">418 Abonnenten</div>
+              </div>
+            </div>
+           <div class="video-info">
+             <a class="video-title" href="https://www.youtube.com/watch?v=cdL1qENSQmQ&t=16s">
+              Warum Deutschlands Gesundheitsdigitalisierung hinterherhinkt |
+               Max Ehret &amp; Prof. Alexander Muacevic
+             </a>
+              <p class="video-author">
+                Der ERCM Medizin Podcast Clips
+              </p>
+              <p class="video-stats">
+                288.670 Aufrufe &#183; vor 6 Jahren
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=fmq5g1x3Fpk&t=10s">
+              <img class="thumbnail"
+              src="thumbnails/thumbnail5.webp"></a>
+            <div class="video-time">6:58</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pic"> 
+            <a href="https://www.youtube.com/watch?v=fmq5g1x3Fpk&t=10s">
+              <img class="profile-pic"src="channel-pics/icon-5.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-5.jpg">
+                <div class="name">faz</div>
+                <div class="subscribers">279.000 Abonnenten</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title" href="https://www.youtube.com/watch?v=fmq5g1x3Fpk&t=10s">
+              Medienberichte: FDP soll Ampel-Aus wochenlang geplant haben
+              </a>
+              <p class="video-author">
+                faz
+              </p>
+              <p class="video-stats">
+                 67.142 Aufrufe &#183; vor 5 Stunden
+              </p>
+             </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=ezqfvsgGJzs&t=11s">
+              <img class="thumbnail" 
+              src="thumbnails/thumbnail6.webp"></a>
+            <div class="video-time">48:10</div>
+          </div>
+           <div class="video-info-grid"> 
+            <div class="channel-pic">
+             <a href="https://www.youtube.com/watch?v=ezqfvsgGJzs&t=11s">
+              <img class="profile-pic"src="channel-pics/icon-6.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-6.jpg">
+                <div class="name">AFP Deutschland</div>
+                <div class="subscribers">396.000 Abonnenten</div>
+              </div>
+            </div>
+          <div class="video-info">
+             <a class="video-title" href="https://www.youtube.com/watch?v=ezqfvsgGJzs&t=11s">
+              Medienberichte: FDP soll 
+              Ampelbruch von langer Hand geplant haben | AFP
+             </a>
+              <p class="video-author">
+                AFP Deutschland
+              </p>
+              <p class="video-stats">
+                34.902 Aufrufe &#183; vor 6 Stunden
+              </p>
+            </div>
+         </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+              <img class="thumbnail"
+              src="thumbnails/thumbnail-7.webp"></a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pic"> 
+              <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+              <img class="profile-pic"src="channel-pics/icon-7.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-7.jpg">
+                <div class="name">RealLifeLore</div>
+                <div class="subscribers">7.67 Mio. Abonnenten</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title" href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+                Why Planes Don&#39;t Fly Over Tibet</a> 
+              
+              <p class="video-author">
+                RealLifeLore
+              </p>
+              <p class="video-stats">
+                6.6 Mio. Aufrufe &#183; vor 1 Jahr
+              </p>
+             </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=lFm4EM1juls">
+              <img class="thumbnail" 
+              src="thumbnails/thumbnail-8.webp"></a>
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid"> 
+            <div class="channel-pic">
+             <a href="https://www.youtube.com/watch?v=lFm4EM1juls">
+              <img class="profile-pic"src="channel-pics/icon-8.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-8.jpg">
+                <div class="name">Tech Vision</div>
+                <div class="subscribers">841.000 Abonnenten</div>
+              </div>
+            </div>
+           <div class="video-info">
+             <a class="video-title" href="https://www.youtube.com/watch?v=lFm4EM1juls">
+              Inside The World&#39;s Biggest Passenger Plane</a>
+              <p class="video-author">
+                Tech Vision
+              </p>
+              <p class="video-stats">
+                3.7 Mio. Aufrufe &#183; vor 10 Monaten
+              </p>
+            </div>
+         </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+              <img class="thumbnail"
+              src="thumbnails/thumbnail-9.webp"></a>
+            <div class="video-time">3:18:21</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pic"> 
+            <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+              <img class="profile-pic"src="channel-pics/icon-9.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-9.jpg">
+                <div class="name">ThenX</div>
+                <div class="subscribers">7.8 Mio. Abonnenten</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title" href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+                The SECRET to Super Human STRENGTH
+              </a>
+              <p class="video-author">
+                ThenX
+              </p>
+              <p class="video-stats">
+                20 Mio. Aufrufe &#183; vor 3 Jahren
+              </p>
+             </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o"><img class="thumbnail" 
+              src="thumbnails/thumbnail-10.webp"></a>
+            <div class="video-time">27:01</div>
+          </div>
+          <div class="video-info-grid"> 
+            <div class="channel-pic">
+             <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o">
+              <img class="profile-pic"src="channel-pics/icon-10.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-10.jpg">
+                <div class="name">Business Insider</div>
+                <div class="subscribers">9.74 Mio. Abonnenten</div>
+              </div>
+            </div>
+           <div class="video-info">
+             <a class="video-title" href="https://www.youtube.com/watch?v=R2vXbFp5C9o">
+              How The World&#39;s Largest Cruise Ship Makes 30,000 Meals Every...
+             </a>
+              <p class="video-author">
+                Business Insider
+              </p>
+              <p class="video-stats">
+                14 Mio. Aufrufe &#183; vor 1 Jahr
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+              <img class="thumbnail"
+              src="thumbnails/thumbnail-11.webp"></a>
+            <div class="video-time">6:58</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pic"> 
+            <a href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+              <img class="profile-pic"src="channel-pics/icon-11.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-11.jpg">
+                <div class="name">Destination Tips</div>
+                <div class="subscribers">282.000 Abonnenten</div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a class="video-title" href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+              Dubai&#39;s Crazy Underwater Train and Other Things #Only in Dubai
+              </a>
+              <p class="video-author">
+                Destination Tips
+              </p>
+              <p class="video-stats">
+                 3 Mio. Aufrufe &#183; vor 1 Jahr
+              </p>
+             </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+              <img class="thumbnail" 
+              src="thumbnails/thumbnail-12.webp"></a>
+            <div class="video-time">48:10</div>
+          </div>
+           <div class="video-info-grid"> 
+            <div class="channel-pic">
+             <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+              <img class="profile-pic"src="channel-pics/icon-12.jpg"></a>
+              <div class="pic-tooltip">
+                <img class="tooltip-profile-pic"src="channel-pics/icon-12.jpg">
+                <div class="name">TED-Ed</div>
+                <div class="subscribers">20.7 Mio. Abonnenten</div>
+              </div>
+            </div>
+          <div class="video-info">
+             <a class="video-title" href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+              What would happen, if you didn&#39;t drink water? - Mia Nacamulli
+             </a>
+              <p class="video-author">
+                TED-Ed
+              </p>
+              <p class="video-stats">
+                12 Mio. Aufrufe &#183; vor 5 Jahren
+              </p>
+            </div>
+         </div>
+        </div>
+    </section>
+   </main>
+  </body>
+</html>
